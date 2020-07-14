@@ -1,0 +1,325 @@
+body {
+	margin: 0;
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 1.3;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.navItem {
+	padding: 1.5rem 2rem;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.header {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.purple {
+	color: rgb(190, 93, 238);
+}
+
+.bold { 
+	font-weight: bold; 
+	font-size: 1rem;
+}
+
+.about h2 {
+	text-align: center;
+}
+
+.bg {
+	background-image: linear-gradient(to right, rgb(190, 93, 238), rgb(168, 114, 197));
+	color: white;
+	top: 0;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 3rem;
+	margin: 0 7rem;
+}
+
+.mainImage {
+	object-fit: cover;
+	width: 20rem;
+	height: 20rem;
+	padding: 3rem 2rem 2rem 2rem;
+}
+
+.aboutText {
+	padding: 2rem 4rem;
+}
+
+.resumeBtn {
+	margin-top: 1.5rem;
+}
+
+.button {
+	padding: 0.8rem;
+	color: white;
+	font-size: 1rem;
+	background: #572B6E;
+	border: none;
+}
+
+.button:hover {
+	background: #51E3ED;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0.5rem;
+	margin: 0 4rem 5rem 4rem;
+}
+
+.project {
+	margin: 2.5rem;
+	border-bottom: solid #83EDF0 1px;
+	border-right: solid #83EDF0 1px;
+}
+
+.textBox {
+	padding: 1rem;
+}
+
+.projectIcon {
+	color: #572B6E;
+	padding-top: 1.5rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.textBox a {
+	text-transform: uppercase;
+	color: #572B6E;
+	font-weight: bold;
+}
+
+.textBox a:hover {
+	color: #83EDF0;
+}
+
+.techFlex {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.tech {
+	margin: 1rem 2.5rem 1rem 0;
+	padding: 0.5rem;
+	min-width: 4rem;
+	color: #572B6E ;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-align: center;
+	border: solid #83EDF0 1px;
+	border-radius: 0.2rem;
+}
+
+.responsive {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	color: #51E3ED;
+	font-size: 1rem;
+}
+
+.screen {
+	color: rgb(190, 93, 238);
+	font-size: 1.5rem;
+}
+
+.margin {
+	margin: 2.5rem 0;
+}
+
+.contact {
+	padding: 1rem;
+	text-align: center;
+	background-image: linear-gradient(to right, rgb(190, 93, 238), rgb(168, 114, 197));
+	color: white;
+}
+
+.contact h1 {
+	margin: 1rem 0 3rem 0;
+}
+
+.contact h3 {
+	text-transform: uppercase;
+}
+
+.contactText {
+	margin-bottom: 4rem;
+}
+
+.hireBtn {
+	margin-bottom: 1rem;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: linear-gradient(to right, rgb(98, 76, 110), rgb(92, 80, 98));
+	color: white;
+}
+
+.icon {
+	padding: 0.5rem;
+	color: white;
+	font-size: 2.5rem;
+}
+
+.iconBox {
+	margin-top: 4rem;
+}
+
+@media only screen and (max-width: 850px) {
+
+	.flex {
+		flex-direction: column;
+		align-items: center;
+		margin: 0 2rem;
+	}
+
+	.grid {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.techFlex {
+		justify-content: center;
+	}
+
+	.purple {
+		text-align: center;
+	}
+
+	.title {
+		margin-bottom: 0;
+	}
+
+	.btnPosition {
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+
+	.navItem {
+		padding: 1rem;
+		font-size: 0.7rem;
+	}
+
+	.title {
+		font-size: 2rem;
+	}
+
+	.header {
+		font-size: 1.2rem;
+	}
+
+	.grid {
+		margin: 0;
+	}
+
+	.project {
+		margin: 1rem 1.5rem;
+	}
+
+	.techFlex {
+		justify-content: center;
+	}
+
+	.purple {
+		text-align: center;
+	}
+
+	.projectIcon {
+		font-size: 2rem;
+	}
+
+	.responsive {
+		font-size: 0.6rem;
+	}
+
+	.screen {
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	.title {
+		margin-bottom: 0;
+		font-size: 1.75rem;
+	}
+
+	.header {
+		font-size: 1.2rem;
+	}
+
+	.subHeader {
+		margin: 0.2rem 0 2rem 0;
+		font-size: 0.9rem;
+	}
+
+	.mainImage {
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+
+	.aboutText {
+		padding: 0;
+	}
+
+	.btnPosition {
+		text-align: center;	
+	}
+	
+	.tech {
+		margin: 0.3rem;
+		padding: 0.2rem;
+		font-size: 0.7rem;
+		min-width: 3rem;
+	}
+
+	.responsive {
+		margin: 0;
+		padding: 0;
+		font-size: 0.6rem;
+	}
+
+	.screen {
+		font-size: 0.9rem;
+	}
+
+	.bold {
+		font-size: 0.8rem;
+	}
+	
+	.contact h3 {
+		font-size: 0.9rem;
+	}
+}
