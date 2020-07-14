@@ -190,6 +190,8 @@ footer {
 }
 
 .iconBox {
+	display: flex;
+	flex-direction: row;
 	margin-top: 4rem;
 }
 
