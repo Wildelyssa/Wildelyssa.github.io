@@ -1,6 +1,6 @@
 ## My portfolio website
 
-See live code: https://wildelyssa.github.io/my_portfolio/
+See live code: https://wildelyssa.github.io/
 
 ## Tech used
 * **HTML**
