@@ -91,7 +91,7 @@ a {
 	margin: 0 4rem 5rem 4rem;
 }
 
-.music {
+.last {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	width: 60%;
@@ -220,9 +220,9 @@ footer {
 		justify-content: center;
 	}
 
-	.music {
+	/*.music {
 		width: auto;
-	}
+	}*/
 
 	.purple {
 		text-align: center;
