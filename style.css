@@ -82,6 +82,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 1.2rem;
 }
 
 .mainImage {
@@ -136,8 +137,8 @@ a:hover {
 	padding-bottom: 3rem;
 }
 
-.hireBtn {
-	margin: 0 1rem;
+ .hireBtn {
+	margin: 0 0.5rem;
 }
 
 button {
@@ -175,7 +176,6 @@ button:hover {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 	border-bottom: solid var(--primary-color) 2px;
 	border-right: solid var(--primary-color) 2px;
 	box-shadow: var(--box-shadow);
@@ -386,12 +386,9 @@ footer {
 		font-size: 1rem;
 	}
 
-	.dev-title {
-		font-size: 1rem;
-	}
-
 	.dev-title, .git-title {
 		text-align: center;
+		font-size: 1rem;
 	}
 
 	.aboutText {
@@ -416,14 +413,9 @@ footer {
 		align-items: center;
 	}
 
-	.hireBtn {
-		margin: 0;
-	}
-
 	button {
 		font-size: 0.7rem;
 		padding: 0.9rem;
-		width: 100%;
 	}
 
 	.purple {
