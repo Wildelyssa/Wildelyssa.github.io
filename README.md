@@ -11,9 +11,9 @@ My portfolio website to display the projects I have worked on and am working on,
 
 ## Features
 * Responsive Design
-* About Me section
 * Downloadable copy of my CV
-* Projects section with links to Live Wesbites and Source Code
-* Contact section with details
+* Button for direct email
+* Projects section with links to Live Websites and Source Code
+* CSS variables to easily edit colour-scheme and key formatting options
 
 
