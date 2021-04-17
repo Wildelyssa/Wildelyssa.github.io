@@ -25,6 +25,7 @@ xcuserdata/
 # IDE
 *.idea
 *.iml
+.vscode
  
 # Generated files
 /web-app/WEB-INF
