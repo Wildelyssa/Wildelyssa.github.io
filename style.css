@@ -1,8 +1,8 @@
 /* Colour palette */
 
 :root {
-	--primary-color: rgba(243, 189, 182, 0.897);
-	--primary-alt:  rgb(235, 147, 198);
+	--primary-color: rgba(239, 171, 163, 0.996);
+	--primary-alt:  rgb(234, 130, 190);
 	--primary-dark: rgb(117, 51, 117);
 	--primary-dark-alt: rgb(94, 59, 97);
 	--secondary-color: rgb(231, 139, 216);
@@ -121,7 +121,6 @@ a:hover {
 	font-size: 0.7rem;
 	text-align: center;
 	border: double var(--secondary-color) 2px;
-	/* background: var(--primary-alt); */
 	border-radius: 0.2rem;
 }
 
@@ -164,13 +163,6 @@ button:hover {
 	justify-items: center;
 	margin: 0 3rem 5rem 3rem;
 }
-
-/* .last {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	width: 60%;
-	justify-self: center;
-} */
 
 .project {
 	text-align: center;
@@ -329,7 +321,6 @@ footer {
 	.btnPosition {
 		width: auto;
 	}
-
 }
 
 @media only screen and (max-width: 650px) {
