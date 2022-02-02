@@ -6,10 +6,11 @@ See live code: https://wildelyssa.github.io/
 * **HTML**
 * **CSS**
 
-Next stage of project is to rebuild in React and update with links to more recent projects and builds
+
+Next stage is to re-build this in React and update with more recent projects more representative of my current skillset.
 
 ## Purpose
-My portfolio website to display the projects I have worked on and am working on, the tech I am confident with and information for potential clients and employers
+Example portfolio website to display the projects I have worked on and am working on, the tech I am confident with and information for potential clients and employers
 
 ## Features
 * Responsive Design
