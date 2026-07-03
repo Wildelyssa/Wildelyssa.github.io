@@ -1,7 +1,5 @@
 ## My portfolio website
 
-See live code: https://wildelyssa.github.io/
-
 ## Tech used
 * **HTML**
 * **CSS**
